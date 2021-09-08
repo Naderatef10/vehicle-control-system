@@ -1,0 +1,14 @@
+17:06:03 **** Incremental Build of configuration Debug for project veichle control system ****
+make all 
+Building file: ../src/veichle control system_ main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/veichle control system_ main.d" -MT"src/veichle control system_ main.o" -o "src/veichle control system_ main.o" "../src/veichle control system_ main.c"
+../src/veichle control system_ main.c:13:10: fatal error: functions.h: No such file or directory
+   13 | #include "functions.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/veichle control system_ main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+17:06:03 Build Failed. 2 errors, 0 warnings. (took 193ms)
+
